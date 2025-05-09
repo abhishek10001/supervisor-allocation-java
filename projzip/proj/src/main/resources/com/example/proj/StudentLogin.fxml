@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proj.LoginChoiceController">
+    <children>
+        <AnchorPane prefHeight="500.0" prefWidth="300.0">
+            <children>
+                <Circle layoutX="150.0" layoutY="131.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+                <Polygon layoutX="151.0" layoutY="180.0" points="-32.400001525878906, 21.000015258789062, 36.199981689453125, 21.000015258789062, 0.0, -60.0" stroke="BLACK" strokeType="INSIDE" />
+                <TextField layoutX="58.0" layoutY="250.0" prefHeight="26.0" prefWidth="190.0" promptText="Username" />
+                <TextField layoutX="58.0" layoutY="302.0" prefHeight="26.0" prefWidth="190.0" promptText="Password" />
+                <Text layoutX="101.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome Back!" wrappingWidth="104.68012237548828">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Text>
+                <Button layoutX="115.0" layoutY="355.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="76.0" text="Login" />
+                <Text layoutX="81.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Login">
+                    <font>
+                        <Font size="23.0" />
+                    </font>
+                </Text>
+            <Button layoutX="14.0" layoutY="36.0" mnemonicParsing="false" onAction="#BacktoLoginPage" text="Back" />
+            </children>
+        </AnchorPane>
+    </children>
+</StackPane>
